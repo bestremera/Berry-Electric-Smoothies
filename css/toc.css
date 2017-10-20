@@ -1,0 +1,298 @@
+/* LINKS */
+a:link  {
+    text-decoration: none;
+}
+
+/* VISITED LINKS */
+a:visited {
+    text-decoration:  none;
+} 
+
+
+/* BODY */
+body{
+background-image: url(../img/retina_wood.png);
+
+}
+
+/* MAIN */
+main{
+	margin: auto;
+	padding: 3rem;
+}
+
+/* HAMBURGER */
+.hamburger{
+line-height: 6;
+}
+
+/* COPYRIGHT */
+.copyright{
+	color: #959A8F;
+}
+
+/* STICKERS */
+.stickers, .promo, .content1, .content2, .content3{
+	display: none;
+}
+
+
+.desc a{
+	margin: 0;
+	padding:0;
+	color: purple;
+	text-align: center;
+}
+
+.desc p{
+	background-color: purple;
+	color: white;
+}
+
+.desc h3{
+	font-family: 'Limelight', cursive;
+	margin: 0;
+	margin-top:2rem;
+	font-size: 1.5rem;
+	background-color: white;
+	text-align: center;
+	
+}
+
+.desc ol{
+	margin: 0;
+  	padding: 0;
+  	list-style-type: none;
+}
+
+/* PHOTOSLIDE */
+.photoslide-toc{
+	padding: 1rem;
+	display: block;
+
+}
+
+.menu{
+	display: block;
+	background-color: purple;
+	margin-bottom: 2rem;
+	padding: 2rem;
+	line-height: 2;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+
+@media screen and (min-width: 37.5rem){
+.menu{
+	font-size: 3rem;
+	}
+}
+
+
+@media screen and (min-width: 67.5rem){
+
+	.menu{
+		display: none;
+	}
+
+/* MENU SLIDE / TOC SLIDE */
+.photoslide-toc{
+	display: none;
+}
+
+/* PROMO ( shake ) */
+.promo{
+	width: 8%;
+	position: absolute;
+	top: 16%;
+	left: 55%;
+	transform: rotate(7deg);
+	display: block;
+}
+
+.promo:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+    width: 12%;
+    top: 20%;
+    left: 50%;
+    z-index: 2;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+/* PHOTO 1 */
+.content1{
+	width: 23%;
+	position: absolute;
+	top: 28%;
+	left: 9%;
+	border-radius: 50%;
+	border:10px solid #fff;
+	display: block;
+
+}
+
+/* PHOTO 2 */
+.content2{
+	width: 23%;
+	position: absolute;
+	top: 28%;
+	left: 39%;
+	border-radius: 50%;
+	border:10px solid #fff;
+	display: block;
+
+}
+
+
+/* PHOTO 3 */
+.content3{
+	width: 23%;
+	position: absolute;
+	top: 28%;
+	left: 68.5%;
+	border-radius: 50%;
+	border:10px solid #fff;
+	transform: rotate(10deg);
+	display: block;
+	
+}
+
+/* DESCRIPTIONS */
+.desc ol{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.desc li {
+ 	counter-increment: step-counter;
+}
+
+.desc li:before {
+ 	content: counter(step-counter);
+ 	position: absolute;
+ 	left: 4.2%;
+ 	top: -225%;
+ 	font-size: 2.5rem;
+ 	color: purple;
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: 'Limelight', cursive;
+ 	background-color: white;
+ 	border-radius: 50%;
+ 	width: 6vh;
+ 	text-align: center;
+}
+
+
+
+
+.desc h3{
+	font-family: 'Limelight', cursive;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0 2rem;
+	color: purple;
+	background-color: white;
+	text-align: center;
+}
+
+.desc p{
+	margin: 0;
+	padding: 2rem 3rem;
+	background-color: purple;
+	color: white;
+	text-align: center;
+
+}
+
+/* LI 1 */
+.sbanana{
+	position: absolute;
+	top: 63%;
+	left: 8%;
+}
+
+/* LI 2 */
+.triberry{
+	position: absolute;
+	top: 63%;
+	left: 38%;
+	width: 25%; 
+
+}
+
+/* LI 3 */
+.waterkiwi{
+	position: absolute;
+	top: 63%;
+	left: 67.5%;
+}
+
+/* STICKERS */
+
+.stickers{
+	display: block;
+}
+
+.stickerstrawbs{
+	width: 5%;
+	position: absolute;
+	top: 71%;
+	left: 30%;
+	z-index: 1;
+	transform: rotate(20deg);
+
+}
+
+.stickerber{
+	width: 5%;
+	position: absolute;
+	top: 73%;
+	left: 60%;
+	z-index: 1;
+}
+
+.stickerkiwi{
+	width: 5%;
+	position: absolute;
+	top: 73%;
+	left: 90%;
+	z-index: 1;
+}
+
+/* STICKERS HOVER */
+.stickers img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.stickers img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+}
+
+
+
+
+
+
+

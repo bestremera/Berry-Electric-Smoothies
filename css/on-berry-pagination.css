@@ -1,0 +1,66 @@
+
+
+@media screen and (min-width: 67.5rem){
+
+.nextpage{
+	background-image: url(../img/page_kiwi_gr8.jpg);
+}
+
+.prevpage{
+		background-image: url(../img/page_strawb_gr8.jpg);
+}
+
+.nextpage:hover{
+	background-image: url(../img/kiwi_smiley_face_nav.jpg);
+	transition: .5s;
+
+}
+
+.prevpage:hover{
+	background-image: url(../img/strawberries_close_up.jpg);
+	transition: .5s;
+
+}
+
+.pinkiwi{
+	width: 5%;
+	position: fixed;
+	top: 20%;
+	left: 62%;
+	z-index: 1;
+	display: block;
+}
+
+.pinstrawb-1{
+	width: 5%;
+	position: fixed;
+	top: 58%;
+	left: 87%;
+	z-index: 1;
+	display: block;
+	transform: rotate(30deg);
+}
+
+.pinberry{
+	width: 5%;
+	position: absolute;
+	top: 145%;
+	left: 55%;
+	z-index: 1;
+	display: block;
+}
+
+.pinrasp{
+	width: 6.5%;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	z-index: 1;
+	display: block;
+	transform: rotate(-8deg);
+}
+
+
+}
+
+

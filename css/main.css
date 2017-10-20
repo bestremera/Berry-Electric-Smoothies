@@ -1,0 +1,400 @@
+
+
+/* <TEXT> */
+/* UNVISITED LINKS */
+a:link  {
+    text-decoration: none;
+}
+
+/* VISITED LINKS */
+a:visited {
+    text-decoration:  none;
+} 
+
+/* BODY */
+body,html{
+	background-color: white;
+	width: auto;
+	background-image: url(../img/retina_wood.png);
+
+}
+
+/* HEADER */
+header{
+	overflow: hidden;
+	padding: .5rem 2rem;
+	background-image: url(../img/brickwall.png);
+	width: auto;
+}
+
+/* LOGO */
+.logo{
+	float: left;
+	width: 20rem;
+}
+
+/* HAMBURGER */
+.hamburger{
+	float: right;
+	line-height: 8;
+	width: 1.5rem;
+}
+
+.hamburger a{
+	color: purple;
+}
+
+/* STICKERS */
+.pinstrawb-1, .pinstrawb-2,.pinberry, .pinkiwi, .pinrasp, .pinbanana, .pinmelon{
+	display: none;
+
+}
+ 
+/* PARAGRAPH / P */
+p{
+	font-family: 'Lato', sans-serif;
+	padding:0;
+	margin: 0;
+	color: grey;
+}
+
+
+
+
+/* ---------------------- */
+
+/* MAIN */
+main{
+	background-image: url(../img/handmadepaper.png);
+	width: 80%;
+	margin: auto;
+	padding: 1.5rem;
+	overflow: hidden;
+
+	
+}
+/* MAIN CONTENT */
+.main-content-inner{
+	overflow: hidden;
+}
+
+
+
+/* INTRO */
+.intro{
+margin: 1rem 0 0 0;
+
+}
+
+.main-title, .published-d8{
+	text-align: center;
+}
+
+.intro_p{
+	margin-top: 1rem;
+}
+
+
+/* PUBLISHED DATE / SUBTITLE */
+.published-d8{
+	font-size: 1rem;
+	margin: 0;
+	padding: .5rem;
+	font-family: 'Sedgwick Ave', cursive;
+	background-color: purple;
+	color: white;
+	width: auto;
+
+
+}
+
+h3{
+	font-family: 'Limelight', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+.product_desc{
+	padding: 1.5rem 0;
+}
+
+.main-content-inner ul{
+	font-family: 'Lato', sans-serif;
+	padding: 1rem;
+	margin: 0;
+}
+
+.tips{
+	background-color: purple;
+	height: auto;
+	padding: 1.5rem;
+	color: white;
+	line-height: 2;
+}
+
+.tips h3{
+	font-size: 1.5rem;
+}
+
+.instruct{
+	margin-top: 1rem;
+	color: grey;
+}
+
+.instructions_1 h3{
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+	color: purple;
+}
+
+.instructions_2 h3{
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 1.5rem;
+	white-space: nowrap;
+	margin-bottom: .5rem;
+	color: purple;
+}
+
+h2{
+	padding: 0;
+	margin-bottom: .5rem;
+
+}
+
+/* MAIN TITLE */
+.main-title{
+	font-size: 2rem;
+	padding: 0;
+	color: purple;
+	margin-bottom: 1rem;
+}
+
+
+
+/* FOOTER */
+footer{
+	background-image: url(../img/brickwall.png);
+	padding: 1rem 2rem;
+	margin: 0;
+	overflow: hidden;
+}
+
+/* COPYRIGHT */
+.copyright{
+	color: #959A8F;
+	float:left;
+	line-height: 4;
+	font-size: 1rem;
+}
+
+
+/* SOCIAL MEDIA LI */
+.social-media li{
+	display: inline-block;
+}
+
+/* SOCIAL MEDIA */
+.social-media{
+	font-size: 2rem;
+	line-height: 2;
+	float: right;
+	padding: 0;
+	color: purple;
+}
+.s-nav{	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 2rem;
+
+}
+
+.s-nav h2, .s-nav p{
+	margin: 0;
+	padding: 0;
+	color: purple;
+
+}
+
+.s-nav h2{
+	font-family: 'Limelight', cursive;
+
+}
+
+.s-nav li{
+	display: inline-block;
+}
+
+.s-nav a{
+	display: block;
+}
+
+
+.nextpage{
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.prevpage{
+	float: left;
+	width: 50%;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+/* LARGER SCREENS */
+@media screen and (min-width: 67.5rem){
+
+main{
+	background-image: none;
+}
+
+.main-content-inner{
+	background-image: url(../img/handmadepaper.png);
+	padding: 1rem;
+	width: 60%;
+	float: left;
+	margin: 2rem  0;
+}
+
+.main-title{
+	font-size: 2.3rem;
+}
+
+.flexslider{
+	border: none;
+}
+
+
+/* STICKERS */
+.pinstrawb-1{
+	width: 5%;
+	position: absolute;
+	top: 140%;
+	left: 55%;
+	z-index: 1;
+	transform: rotate(30deg);
+	display: block;
+
+
+}
+
+.pinberry{
+	width: 5%;
+	position: fixed;
+	top: 20%;
+	left: 62%;
+	z-index: 1;
+	display: block;
+}
+
+.pinkiwi{
+	width: 5%;
+	position: fixed;
+	top: 62%;
+	left: 87%;
+	z-index: 1;
+	display: block;
+
+}
+
+.pinbanana{
+	width: 12%;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	z-index: 1;
+	display: block;
+	transform: rotate(55deg);
+}
+
+/* INSTRUCTIONS */
+.instructions_1{
+	float: left;
+	width: 40%
+}
+
+.instructions_2{
+	float: right;
+	width: 45%
+}
+
+/* -------------------- SECONDARY NAV -------------------- */
+.s-nav{
+ 	font-size: 1rem;
+	}
+
+
+.s-nav h2, .s-nav p{
+	color: white;
+	text-shadow: 2px -2px grey;
+}
+
+
+/* PAGINATION */
+.nextpage{
+	background-image: url(../img/page_berry_gr8.jpg);
+	background-size: 100%; 
+	width: 23.75%;
+	padding: 2.5rem 1rem;
+	text-align: right;
+ 	position: fixed;
+ 	top: 25%;
+ 	left: 63.75%;
+}
+
+.prevpage{
+	background-image: url(../img/page_kiwi_gr8.jpg);
+	background-size: 100%; 
+	width: 23.75%;
+	padding: 2.5rem 1rem;
+	text-align: left;
+ 	position: fixed;
+ 	top: 48%;
+ 	left: 63.75%;
+}
+
+.nextpage:hover{
+	background-image: url(../img/berries_close_up_1.jpg);
+	transition: .5s;
+
+}
+
+.prevpage:hover{
+	background-image: url(../img/kiwi_smiley_face_nav.jpg);
+	transition: .5s;
+
+}
+
+.logo{
+	width: 18.25rem;
+}
+
+.hamburger{
+	line-height: 6rem;
+}
+
+}
+
+/* ----------------- END SECONDARY NAV -------------------- */
+
+
+@media screen and (min-width: 87.5rem){
+
+.s-nav{
+ 	font-size: 1.5rem;
+	}
+
+}
+
+@media screen and (max-width: 37.5rem){
+.logo{
+	width: 15rem;
+}
+
+.hamburger{
+	line-height: 6;
+}
+}
